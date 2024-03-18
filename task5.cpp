@@ -15,7 +15,9 @@ int main() {
     cout << "b: " << *b << endl;   
     cout << "c: " << *c << endl;   
 
-    delete a,b,c;
+    delete a;
+    delete b;
+    delete c;
 
     return 0;
 }

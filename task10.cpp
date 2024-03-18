@@ -15,7 +15,6 @@ private:
 
 public:
     LinkedList();
-    ~LinkedList();
     void display();
     void addFront(string name, int value);
     void removeFront();
@@ -31,16 +30,6 @@ public:
 LinkedList::LinkedList()
 {
     head = NULL;
-}
-LinkedList::~LinkedList()
-{
-    Node* current = head;
-    while (current != NULL)
-    {
-        Node* next = current->next;
-        delete current;
-        current = next;
-    }
 }
 
 void LinkedList::display()
