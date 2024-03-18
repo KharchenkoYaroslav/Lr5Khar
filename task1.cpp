@@ -12,7 +12,7 @@ public:
 int main() {
     letters arr[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
 
-    for(int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++){
+    for(int i = 0; i < 10 ; i++){
         cout << arr[i].get_ch() << endl;
     }
 
