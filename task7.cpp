@@ -13,7 +13,7 @@ public:
 
 int main () {
     samp *ptr;
-    ptr = new samp[10]; // allocate object array
+    ptr = new samp[10]; 
     for (int i=0; i<10; i++)
         ptr[i].set_ij(i, i);
     for (int i=0; i<10; i++) {

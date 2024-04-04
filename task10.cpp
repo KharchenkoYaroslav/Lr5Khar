@@ -32,6 +32,7 @@ LinkedList::LinkedList()
     head = NULL;
 }
 
+
 void LinkedList::display()
 {
     Node *current = head;
@@ -212,7 +213,7 @@ void LinkedList::addAfter(string name, int value, int index)
     }
 }
 int main()
-{\
+{
     LinkedList list;
     list.addEnd("one", 10);
     list.addEnd("two", 20);
